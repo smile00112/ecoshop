@@ -1,0 +1,375 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .menu_desktop a {
+    padding: 25px 5px 0 0;
+
+}
+.menu_desktop a:before {
+display: none;
+}
+.p_basket {
+
+    WIDTH: 77PX;
+}
+#navigation.fixed li {
+    text-align: center;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .avtor_reg{
+
+  	justify-content:center;
+
+  }
+  .popapotz {
+    width: 100%;
+}
+
+
+  .new_ul li:last-child {
+          margin-left: 00px;
+  }
+  .img_n_i img{
+    margin-bottom: 20px;
+  }
+  .flex-control-nav {
+      width: 100%;
+  		height:auto;
+      position: static;
+      top: 0px;
+  		left:0;
+      text-align: center;
+  }
+  .two_but{
+    text-align: center;
+
+  }
+  .pr_img_s li {
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+  .two_but button{
+    margin-bottom: 10px;
+    margin-left: 0;
+
+  }
+  .flex-control-nav{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+  }
+  .flex-control-nav li{
+    background: none;
+  }
+  .art{
+    margin-top: 15px;
+  }
+  .inf0block p{
+  	flex-basis: 100%;
+    margin-bottom: 15px;
+  }
+.price_karto{
+  justify-content: center;
+}
+.price_karto p{
+  margin-bottom: 15px;
+}
+.h1{
+  font-size: 22px;
+}
+.flex-control-thumbs li {
+       width: 25%;
+       float:left;
+      margin: 0;
+  }{
+
+  }
+  .close {
+
+    right: 5px;
+    top: 5px;
+
+}
+.basket_katalog .lt img {
+    margin-bottom: 20px;
+}
+  .fixed_z{
+    position: static;
+  }
+  .tabs {
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.tabs>label {
+	display: inline-block;
+	margin: 10PX 20PX 20px 0;
+	font-size: 14px;
+  color: #242526;
+  font-family: "RobotoMedium";
+	text-align: center;
+	padding:0 9px;
+
+
+
+}
+.kat li {
+    width: 250px;
+    margin: 0 auto;
+}
+.lt {
+    display: inline-block;
+    width: 100%;
+}
+.rt {
+    display: block;
+    width: 100%;
+}
+.kat_table li {
+  padding:10px 0;
+  margin: 0 0 50px 0;
+}
+.kat li:nth-child(4n+4){
+    margin: 0 auto;
+}
+  .back{
+     order: 1;
+     flex-basis: 50%;
+     text-align: center;
+  }
+  .namber{
+    order: 3;
+    flex-basis: 100%;
+    height: auto;
+    line-height: auto;;
+  }
+  .namber a {
+    padding: 0 6px;
+    margin: 0 4px;
+     height: auto;
+     display:inline;
+}
+  .forw{
+    order: 2;
+    flex-basis: 50%;
+    text-align: center;
+  }
+  .number_s {
+    padding-top: 20px;
+}
+  .sort_block li:first-child{
+  	width: 100%;
+    display: block;
+  }
+  .sort_block_view {
+    justify-content:space-around;
+  }
+  .sort_block_view li {
+    margin-right: 20px;
+  }
+  .white-popup2{
+    width: auto;
+    padding: 10px;
+  }
+  .region_modal{
+
+
+  	height: auto;
+
+  }
+  .mobyle_logo_block .p_basket{display: BLOCK;
+  }
+  .reg_colm{
+    flex-basis: 100%;
+  }
+  .modl_region_block_one .block_search{
+    flex-basis: 100%;
+    width: 100%;
+
+
+  }
+  .new_card  li {
+    width: 100%;
+}
+.m_p_text{
+    margin-bottom: 20px;
+
+  }
+  .modl_region_block_one {
+
+    flex-direction: column;
+}
+  .f p {
+
+    text-align: center;
+}
+.footer_menu div{
+  margin-bottom: 30px;
+}
+  .r1{
+      flex-basis: 100%;
+      margin-top:10px;
+      margin-bottom: 20px;
+  }
+  .r2{
+      flex-basis: 100%;
+      margin-bottom: 20px;
+  }
+  .r_block {
+
+    height: auto;
+
+}
+  .r3{
+      flex-basis: 100%;
+      margin-bottom: 30px;
+          text-align: center;
+  }
+  .r3 input{
+      min-width:40%;
+      margin-bottom: 10px;
+  }
+  .r3 button{
+      min-width:40%;
+      margin-left: 0;
+  }
+  .new_ul li{
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+  .new_ul {
+
+    margin-bottom: 30px;
+  }
+  .pr_b_ul li{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .rext_b_g{
+     justify-content:flex-start;
+     height:auto;
+  }
+  .block_img{
+     height:auto;
+     padding-bottom: 20px;
+  }
+  .mobyle_logo_block{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+  }
+  .block_basket{
+    display: none;
+  }
+  .menu_mobyle{
+    display: block;
+  }
+  .menu_desktop{
+    display: none;
+  }
+  .head_grey{
+    height: auto;
+  }
+  .p_logo{
+    margin-bottom: 10px;
+  }
+  .call_text{
+    text-align: center;
+  }
+  .namber_text{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .block_basket_mobyle{
+
+  }
+  .f_b li{
+  	flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+  .li_p_f1{
+    margin-bottom: 35px;
+  }
+  .icon_basket{
+    height: 34px;
+      width: 32px;
+  }
+  .block_basket_text{
+    font-size: 0;
+  }
+  .col_tov_basket{
+    font-size: 0;
+  }
+  .p_basket{
+    position: relative;
+  }
+  .mobyle_kol_tov{
+    position: absolute;
+    font-size: 9px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 50%;
+    background: #00975E;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

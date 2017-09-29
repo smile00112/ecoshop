@@ -1,0 +1,267 @@
+<div class="block_img">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="rext_b_g">
+						<h2>Экологическая уборка, облегчающая жизнь</h2>
+						<p>Улучшение очистки - вот что нас больше всего волнует. Начиная с уникальных свойств микроволокон, мы разработали ряд продуктов высшего класса, многие из которых имеют собственные запатентованные решения. Для умной очистки, которая оставляет вас с
+							течением времени для других вещей.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block_f">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1">
+					<ul class="f_b">
+						<li class="li_p_f1">
+							<p>Гарантия качества</p>
+							<p>Сделано в Швеции</p>
+						</li>
+						<li class="li_p_f2">
+							<p>Популярные товары</p>
+							<p>Только качественные товары</p>
+						</li>
+						<li class="li_p_f3">
+							<p>Скидки</p>
+							<p>Всегда выгодно</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrap container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h2 class="h2">Хиты продаж</h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="karusel">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+					<div class="owl-carousel">
+						
+						{if $wa->shop}
+                                {$products = $wa->shop->productSet("bestsellers")}
+                                
+                                
+                                {foreach $products as $p}
+
+	                    <div>
+							<ul class="kat_li">
+								<li>
+									<p><a href="{$p.frontend_url}">{$wa->shop->productImgHtml($p, '200', ['itemprop' => 'image', 'alt' => $p.name, 'default' => "`$wa_theme_url`img/dummy200.png"])}</a></p>
+									<p class="kat_name_tov"><a href="{$p.frontend_url}">{$p.name}</a></p>
+									<p class="text_grey_kat">SPA Care</p>
+									<p class="price">{shop_currency_html($p.price)} руб.</p>
+									<p><button class="button">Купить в один клик</button></p>
+									<p class="podrobnee"><a href="{$p.frontend_url}">Подробнее</a></p>
+								</li>
+							</ul>
+                    	</div>
+                    {/foreach}
+                                
+                                
+                                
+                               
+                        {/if}
+								
+								
+						
+						
+					
+					
+							
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="karusel skidki">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+					<h2 class="h2">Скидка дня</h2>
+					<div class="owl-carousel">
+					
+					
+					
+					
+					{if $wa->shop}
+                                {$products = $wa->shop->productSet("skidkadna")}
+                                
+                                
+                                {foreach $products as $p}
+
+	                    <div>
+							<ul class="kat_li">
+								<li>
+									<p><a href="{$p.frontend_url}">{$wa->shop->productImgHtml($p, '200', ['itemprop' => 'image', 'alt' => $p.name, 'default' => "`$wa_theme_url`img/dummy200.png"])}</a></p>
+									<p class="kat_name_tov"><a href="{$p.frontend_url}">{$p.name}</a></p>
+									<p class="text_grey_kat">SPA Care</p>
+									<p class="price">{shop_currency_html($p.price)} руб.</p>
+									<p><button class="button">Купить в один клик</button></p>
+									<p class="podrobnee"><a href="{$p.frontend_url}">Подробнее</a></p>
+								</li>
+							</ul>
+                    	</div>
+                    {/foreach}
+                                
+                                
+                                
+                               
+                        {/if}
+					
+					
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="wrap container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h2 class="h2">Новые поступления</h2>
+			</div>
+		</div>
+	</div>
+	<div class="karusel">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+					<div class="owl-carousel">
+							{if $wa->shop}
+                                {$products = $wa->shop->productSet("skidkadna")}
+                                
+                                
+                                {foreach $products as $p}
+
+	                    <div>
+							<ul class="kat_li">
+								<li>
+									<p><a href="{$p.frontend_url}">{$wa->shop->productImgHtml($p, '200', ['itemprop' => 'image', 'alt' => $p.name, 'default' => "`$wa_theme_url`img/dummy200.png"])}</a></p>
+									<p class="kat_name_tov"><a href="{$p.frontend_url}">{$p.name}</a></p>
+									<p class="text_grey_kat">SPA Care</p>
+									<p class="price">{shop_currency_html($p.price)} руб.</p>
+									<p><button class="button">Купить в один клик</button></p>
+									<p class="podrobnee"><a href="{$p.frontend_url}">Подробнее</a></p>
+								</li>
+							</ul>
+                    	</div>
+                    {/foreach}
+                                
+                                
+                                
+                               
+                        {/if}
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="new_block">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h2 class="h2">Новости</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="news_block">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<ul class="new_ul">
+
+                       {$post = $wa->blog->posts(1,4)}
+                                
+                                
+						{foreach $post as $p}
+							<li>
+								{*$p|var_dump*}
+								<h3>{$p.title}</h3>
+								<p class="text_new">{strip_tags($p.text)|truncate:124}</p>
+								<p class="new_a"><a href="{$p.link}">Читать полностью</a><span>&rarr;</span></p>
+								<p class="blue_str"></p>
+							</li>
+						{/foreach}
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="preim_block">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<ul class="pr_b_ul">
+						<li>
+							<p class="c1"></p>
+							<h3 class="h3">Удобная доставка</h3>
+							<p class="text_preimy">Мы предлагаем широкий выбор способов получения заказа</p>
+						</li>
+						<li>
+							<p class="c2"></p>
+							<h3 class="h3">Удобная доставка</h3>
+							<p class="text_preimy">Мы предлагаем широкий выбор способов получения заказа</p>
+						</li>
+						<li>
+							<p class="c3"></p>
+							<h3 class="h3">Удобная доставка</h3>
+							<p class="text_preimy">Мы предлагаем широкий выбор способов получения заказа</p>
+						</li>
+						<li>
+							<p class="c4"></p>
+							<h3 class="h3">Удобная доставка</h3>
+							<p class="text_preimy">Мы предлагаем широкий выбор способов получения заказа</p>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="over_shop">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<div class="img_shop"></div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+					<div class="info_shop">
+						<h2>Информация о магазине</h2>
+						<p>Swedes use about 50,000 tons of cleaners every year. A majority of the cleaners burden our water purification plants and Show inline popup</a>Show inline popup</a>
+							Open popup</a> the environment unnecessarily. This is due in part to using an excessive amount of chemicals and that many of them are very toxic. Some cleaners also have ingredients that interrupt the biological decomposition process in purifying
+							plants. Ingredients that are not taken care of in the process go straight out into the environment where they damage the ecosystem. The products included in Smart’s cleaning range clean quickly and efficiently without chemicals.</p>
+					</div>
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>

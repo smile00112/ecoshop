@@ -1,0 +1,122 @@
+	<div class="broadkast">
+							<div class="wrap container">
+								<div class="row">
+									<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<a href="">Главная  </a>
+									<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+									<span>Новости</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+<div class="news_block">
+				<div class="wrap container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<ul class="new_ul">						
+						
+						
+						
+{foreach $posts as $post}
+
+
+								<li>
+									<h3>{$post.title}</h3>
+									<p class="text_new">{strip_tags($post.text)|truncate:124}</p>
+									<p class="new_a"><a href="{$post.link}">Читать полностью</a><span>&rarr;</span></p>
+									<p class="blue_str"></p>
+								</li>
+
+
+  
+
+{/foreach}
+
+		</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class=" number_s">
+				<div class="wrap container">
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="navigation_f">
+							
+						
+   
+
+							
+							
+							
+							
+								<div class="back"><a href="{if $p neq $page}/blog/?page={$p-1}{/if}">Предыдущая</a></div>
+								<div class="namber">
+								
+								
+								 {for $p=1 to $pages}
+        <a {if $p eq $page} class="active"{/if} href="{if $p eq $page}#page_{$page}{else}?page={$p}{/if}">{$p}</a>
+									{/for}
+											
+
+								</div>
+								<div class="forw"><a href="{if $p neq $page}/blog/?page={$p+1}{/if}">Следующая</a></div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+	
+		<div class="b_k">
+				<div class="wrap container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="block_img_katalog">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			
+	<div class="karusel">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+					<div class="owl-carousel">
+							{if $wa->shop}
+                                {$products = $wa->shop->productSet("skidkadna")}
+                                
+                                
+                                {foreach $products as $p}
+
+	                    <div>
+							<ul class="kat_li">
+								<li>
+									<p><a href="{$p.frontend_url}">{$wa->shop->productImgHtml($p, '200', ['itemprop' => 'image', 'alt' => $p.name, 'default' => "`$wa_theme_url`img/dummy200.png"])}</a></p>
+									<p class="kat_name_tov"><a href="{$p.frontend_url}">{$p.name}</a></p>
+									<p class="text_grey_kat">SPA Care</p>
+									<p class="price">{$p.price} руб.</p>
+									<p><button class="button">Купить в один клик</button></p>
+									<p class="podrobnee"><a href="{$p.frontend_url}">Подробнее</a></p>
+								</li>
+							</ul>
+                    	</div>
+                    {/foreach}
+                                
+                                
+                                
+                               
+                        {/if}
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>			

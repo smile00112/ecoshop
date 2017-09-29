@@ -1,0 +1,1293 @@
+
+2017-05-04 15:19:46 46.228.14.198
+Table 'whitecit_ecoshot.wa_app_settings' doesn't exist
+## /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waDbMysqliAdapter.class.php(280)
+#0 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waDbMysqliAdapter.class.php(156): waDbMysqliAdapter->exception()
+#1 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(171): waDbMysqliAdapter->schema('wa_app_settings', false)
+#2 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(127): waModel->describe()
+#3 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(97): waModel->getFields()
+#4 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(77): waModel->getMetadata()
+#5 /home/w/whitecit/ecoshot.ru/public_html/wa-system/contact/waContact.class.php(62): waModel->__construct()
+#6 /home/w/whitecit/ecoshot.ru/public_html/wa-system/user/waUser.class.php(22): waContact->init()
+#7 /home/w/whitecit/ecoshot.ru/public_html/wa-system/user/waAuthUser.class.php(34): waUser->init()
+#8 /home/w/whitecit/ecoshot.ru/public_html/wa-system/user/waAuthUser.class.php(28): waAuthUser->init()
+#9 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#10 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#11 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(516): waSystem->getUser()
+#12 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#13 /home/w/whitecit/ecoshot.ru/public_html/index.php(7): waSystem->dispatch()
+#14 {main}
+
+2017-05-04 15:19:46 46.228.14.198
+Table 'whitecit_ecoshot.wa_app_settings' doesn't exist
+## /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waDbMysqliAdapter.class.php(280)
+#0 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waDbMysqliAdapter.class.php(156): waDbMysqliAdapter->exception()
+#1 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(171): waDbMysqliAdapter->schema('wa_app_settings', false)
+#2 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(127): waModel->describe()
+#3 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(97): waModel->getFields()
+#4 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(77): waModel->getMetadata()
+#5 /home/w/whitecit/ecoshot.ru/public_html/wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#6 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#7 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#8 /home/w/whitecit/ecoshot.ru/public_html/wa-system/user/waAuthUser.class.php(45): waSystem->getAuth()
+#9 /home/w/whitecit/ecoshot.ru/public_html/wa-system/user/waAuthUser.class.php(28): waAuthUser->init()
+#10 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#11 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#12 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(516): waSystem->getUser()
+#13 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#14 /home/w/whitecit/ecoshot.ru/public_html/index.php(7): waSystem->dispatch()
+#15 {main}
+
+2017-05-04 15:19:46 46.228.14.198
+Table 'whitecit_ecoshot.wa_app_settings' doesn't exist
+## /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waDbMysqliAdapter.class.php(280)
+#0 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waDbMysqliAdapter.class.php(156): waDbMysqliAdapter->exception()
+#1 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(171): waDbMysqliAdapter->schema('wa_app_settings', false)
+#2 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(127): waModel->describe()
+#3 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(97): waModel->getFields()
+#4 /home/w/whitecit/ecoshot.ru/public_html/wa-system/database/waModel.class.php(77): waModel->getMetadata()
+#5 /home/w/whitecit/ecoshot.ru/public_html/wa-system/config/waAppConfig.class.php(266): waModel->__construct()
+#6 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(94): waAppConfig->checkUpdates()
+#7 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(1634): waSystem::getInstance('webasyst', NULL, 1)
+#8 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(517): wa('webasyst', 1)
+#9 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#10 /home/w/whitecit/ecoshot.ru/public_html/index.php(7): waSystem->dispatch()
+#11 {main}
+
+2017-08-07 11:52:48 109.194.2.175
+Query Error 1054: Unknown column 'shipping_datetime' in 'field list'
+Query: SELECT `shipping_datetime` FROM `shop_order` WHERE 0
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT `shippin...')
+#1 wa-apps/shop/lib/updates/7.2/1498654389.php(5): waModel->query('SELECT `shippin...')
+#2 wa-system/config/waAppConfig.class.php(386): include('/home/w/whiteci...')
+#3 wa-system/config/waAppConfig.class.php(338): waAppConfig->includeUpdate('/home/w/whiteci...')
+#4 wa-system/waSystem.class.php(94): waAppConfig->checkUpdates()
+#5 wa-system/routing/waRouting.class.php(291): waSystem::getInstance('shop', NULL, true)
+#6 wa-system/routing/waRouting.class.php(216): waRouting->getAppRoutes('shop', Array, true)
+#7 wa-system/waSystem.class.php(632): waRouting->dispatch()
+#8 wa-system/waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#9 index.php(7): waSystem->dispatch()
+#10 {main}
+
+2017-08-07 11:52:48 109.194.2.175
+Query Error 1054: Unknown column 'tax_percent' in 'field list'
+Query: SELECT `tax_percent` FROM `shop_order_items` WHERE 0
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT `tax_per...')
+#1 wa-apps/shop/lib/updates/7.2/1498654389.php(15): waModel->query('SELECT `tax_per...')
+#2 wa-system/config/waAppConfig.class.php(386): include('/home/w/whiteci...')
+#3 wa-system/config/waAppConfig.class.php(338): waAppConfig->includeUpdate('/home/w/whiteci...')
+#4 wa-system/waSystem.class.php(94): waAppConfig->checkUpdates()
+#5 wa-system/routing/waRouting.class.php(291): waSystem::getInstance('shop', NULL, true)
+#6 wa-system/routing/waRouting.class.php(216): waRouting->getAppRoutes('shop', Array, true)
+#7 wa-system/waSystem.class.php(632): waRouting->dispatch()
+#8 wa-system/waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#9 index.php(7): waSystem->dispatch()
+#10 {main}
+
+2017-08-07 11:52:48 109.194.2.175
+Query Error 1054: Unknown column 'tax_included' in 'field list'
+Query: SELECT `tax_included` FROM `shop_order_items` WHERE 0
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT `tax_inc...')
+#1 wa-apps/shop/lib/updates/7.2/1498654389.php(21): waModel->query('SELECT `tax_inc...')
+#2 wa-system/config/waAppConfig.class.php(386): include('/home/w/whiteci...')
+#3 wa-system/config/waAppConfig.class.php(338): waAppConfig->includeUpdate('/home/w/whiteci...')
+#4 wa-system/waSystem.class.php(94): waAppConfig->checkUpdates()
+#5 wa-system/routing/waRouting.class.php(291): waSystem::getInstance('shop', NULL, true)
+#6 wa-system/routing/waRouting.class.php(216): waRouting->getAppRoutes('shop', Array, true)
+#7 wa-system/waSystem.class.php(632): waRouting->dispatch()
+#8 wa-system/waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#9 index.php(7): waSystem->dispatch()
+#10 {main}
+
+2017-09-15 13:34:35 109.194.2.175
+Query Error 1146: Table 'ecoshosb_eco.wa_contact' doesn't exist
+Query: SELECT * FROM wa_contact WHERE `id` = '1' LIMIT 1
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT * FROM w...')
+#1 wa-system/database/waModel.class.php(844): waModel->query('SELECT * FROM w...')
+#2 wa-system/database/waModel.class.php(810): waModel->getByField('id', '1', false)
+#3 wa-system/contact/waContact.class.php(811): waModel->getById('1')
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-15 13:34:37 109.194.2.175
+Query Error 1146: Table 'ecoshosb_eco.wa_contact' doesn't exist
+Query: SELECT * FROM wa_contact WHERE `id` = '1' LIMIT 1
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT * FROM w...')
+#1 wa-system/database/waModel.class.php(844): waModel->query('SELECT * FROM w...')
+#2 wa-system/database/waModel.class.php(810): waModel->getByField('id', '1', false)
+#3 wa-system/contact/waContact.class.php(811): waModel->getById('1')
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-15 13:34:48 109.194.2.175
+Query Error 1146: Table 'ecoshosb_eco.wa_contact' doesn't exist
+Query: SELECT * FROM wa_contact WHERE `id` = '1' LIMIT 1
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT * FROM w...')
+#1 wa-system/database/waModel.class.php(844): waModel->query('SELECT * FROM w...')
+#2 wa-system/database/waModel.class.php(810): waModel->getByField('id', '1', false)
+#3 wa-system/contact/waContact.class.php(811): waModel->getById('1')
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-19 23:51:24 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-19 23:51:24 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-19 23:51:24 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-19 23:52:25 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-19 23:52:25 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-19 23:52:25 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-19 23:53:26 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-19 23:53:26 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-19 23:53:26 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-19 23:54:27 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-19 23:54:27 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-19 23:54:27 178.130.42.66
+Connection refused
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:16:50 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:16:50 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:16:50 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:16:53 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:16:53 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:16:53 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:17:51 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:17:51 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:17:51 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:17:54 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:17:54 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:17:54 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:18:52 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:18:52 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:18:52 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:18:55 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:18:55 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:18:55 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:19:14 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:19:14 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:19:14 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/user/waAuthUser.class.php(93): waModel->__construct()
+#4 wa-system/user/waAuthUser.class.php(50): waAuthUser->updateLastTime()
+#5 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#6 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#7 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#8 wa-system/waSystem.class.php(516): waSystem->getUser()
+#9 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#10 index.php(7): waSystem->dispatch()
+#11 {main}
+
+2017-09-27 14:19:14 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/user/waAuthUser.class.php(103): waModel->__construct()
+#4 wa-system/user/waAuthUser.class.php(50): waAuthUser->updateLastTime()
+#5 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#6 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#7 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#8 wa-system/waSystem.class.php(516): waSystem->getUser()
+#9 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#10 index.php(7): waSystem->dispatch()
+#11 {main}
+
+2017-09-27 14:19:53 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:19:53 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:19:53 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:19:56 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:19:56 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:19:56 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:20:54 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:20:54 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:20:54 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:20:57 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:20:57 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:20:57 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:21:55 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:21:55 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:21:55 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:21:58 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:21:58 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:21:58 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:22:56 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:22:56 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:22:56 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:22:59 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:22:59 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:22:59 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:23:57 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:23:57 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:23:57 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:24:00 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:24:00 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:24:00 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:24:58 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:24:58 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:24:58 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:25:01 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(63): waModel->__construct()
+#4 wa-system/user/waUser.class.php(22): waContact->init()
+#5 wa-system/user/waAuthUser.class.php(30): waUser->init()
+#6 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#7 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#8 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#9 wa-system/waSystem.class.php(516): waSystem->getUser()
+#10 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2017-09-27 14:25:01 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/auth/waAuth.class.php(43): waModel->__construct()
+#4 wa-system/waSystem.class.php(213): waAuth->__construct(Array)
+#5 wa-system/waSystem.class.php(380): waSystem->getFactory('auth', 'waAuth', Array)
+#6 wa-system/user/waAuthUser.class.php(43): waSystem->getAuth()
+#7 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#8 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#9 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#10 wa-system/waSystem.class.php(516): waSystem->getUser()
+#11 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#12 index.php(7): waSystem->dispatch()
+#13 {main}
+
+2017-09-27 14:25:01 127.0.0.1
+Access denied for user 'ecoshosb_eco'@'localhost' (using password: YES)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}

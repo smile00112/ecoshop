@@ -1,0 +1,445 @@
+
+2017-08-07 11:29:33 109.194.2.175
+Uncaught exception SmartyException:
+Unable to load template file 'list-thumbs-main.html' in '/home/w/whitecit/ecoshot.ru/public_html/wa-data/public/shop/themes/default/main.html' (0)
+#0 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_template.php(286): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#1 /home/w/whitecit/ecoshot.ru/public_html/wa-cache/apps/shop/templates/compiled/shop_ru_RU/8e/0b/e1/8e0be17173c82cab9281ac9db685ca2cd906e1d1.file.main.html.php(83): Smarty_Internal_Template->getSubTemplate('list-thumbs-mai...', NULL, 'shop_ru_RU', NULL, NULL, Array, 0)
+#2 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatebase.php(180): content_5988245b2b33f3_15011122(Object(Smarty_Internal_Template))
+#3 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_template.php(286): Smarty_Internal_TemplateBase->fetch(NULL, NULL, NULL, NULL, false, false, true)
+#4 /home/w/whitecit/ecoshot.ru/public_html/wa-cache/apps/shop/templates/compiled/shop_ru_RU/51/9e/25/519e255f32f642883b65f15ee75f57257b2e74b8.file.index.html.php(311): Smarty_Internal_Template->getSubTemplate('/home/w/whiteci...', NULL, 'shop_ru_RU', NULL, NULL, Array, 0)
+#5 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatebase.php(180): content_5988245b23d0f7_66414665(Object(Smarty_Internal_Template))
+#6 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase->fetch('file:index.html', NULL, NULL, NULL, true)
+#7 /home/w/whitecit/ecoshot.ru/public_html/wa-system/view/waSmarty3View.class.php(127): Smarty_Internal_TemplateBase->display('file:index.html', NULL)
+#8 /home/w/whitecit/ecoshot.ru/public_html/wa-system/layout/waLayout.class.php(150): waSmarty3View->display('file:index.html')
+#9 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waViewController.class.php(104): waLayout->display()
+#10 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waViewController.class.php(47): waViewController->display()
+#11 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waFrontController.class.php(229): waViewController->run(NULL)
+#12 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waFrontController.class.php(164): waFrontController->runController(Object(waDefaultViewController), NULL)
+#13 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waFrontController.class.php(58): waFrontController->execute(NULL, 'frontend', '')
+#14 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(690): waFrontController->dispatch()
+#15 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(485): waSystem->dispatchFrontend(false)
+#16 /home/w/whitecit/ecoshot.ru/public_html/index.php(7): waSystem->dispatch()
+#17 {main}
+
+2017-08-08 10:20:31 109.194.2.175
+Uncaught exception SmartyCompilerException:
+Syntax Error in template &quot;/home/w/whitecit/ecoshot.ru/public_html/wa-data/public/shop/themes/default/product.html&quot;  on line 14 &quot;{$product|vardump}&quot; unknown modifier &quot;vardump&quot; (0)
+#0 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_compile_private_modifier.php(132): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unknown modifie...', 14)
+#1 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatecompilerbase.php(485): Smarty_Internal_Compile_Private_Modifier->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#2 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatecompilerbase.php(259): Smarty_Internal_TemplateCompilerBase->callTagCompiler('private_modifie...', Array, Array)
+#3 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_compile_private_print_expression.php(65): Smarty_Internal_TemplateCompilerBase->compileTag('private_modifie...', Array, Array)
+#4 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatecompilerbase.php(475): Smarty_Internal_Compile_Private_Print_Expression->compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#5 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatecompilerbase.php(259): Smarty_Internal_TemplateCompilerBase->callTagCompiler('private_print_e...', Array, Array)
+#6 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templateparser.php(2358): Smarty_Internal_TemplateCompilerBase->compileTag('private_print_e...', Array, Array)
+#7 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser->yy_r28()
+#8 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser->yy_reduce(28)
+#9 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(10, '\r\n\r\n\r\n\t\t\t\t\t\t</d...')
+#10 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatecompilerbase.php(206): Smarty_Internal_SmartyTemplateCompiler->doCompile('<div class="bro...')
+#11 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#12 /home/w/whitecit/ecoshot.ru/public_html/wa-system/vendors/smarty3/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template->compileTemplateSource()
+#13 /home/w/whitecit/ecoshot.ru/public_html/wa-system/view/waSmarty3View.class.php(117): Smarty_Internal_TemplateBase->fetch('file:product.ht...', NULL)
+#14 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waViewAction.class.php(171): waSmarty3View->fetch('file:product.ht...', NULL)
+#15 /home/w/whitecit/ecoshot.ru/public_html/wa-apps/shop/lib/actions/frontend/shopFrontend.action.php(135): waViewAction->display(false)
+#16 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waViewController.class.php(86): shopFrontendAction->display()
+#17 /home/w/whitecit/ecoshot.ru/public_html/wa-apps/shop/lib/actions/frontend/shopFrontendProduct.controller.php(44): waViewController->executeAction(Object(shopFrontendProductAction))
+#18 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waController.class.php(21): shopFrontendProductController->execute()
+#19 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waViewController.class.php(46): waController->run(NULL)
+#20 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waFrontController.class.php(229): waViewController->run(NULL)
+#21 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waFrontController.class.php(164): waFrontController->runController(Object(shopFrontendProductController), NULL)
+#22 /home/w/whitecit/ecoshot.ru/public_html/wa-system/controller/waFrontController.class.php(58): waFrontController->execute(NULL, 'frontend', 'product')
+#23 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(698): waFrontController->dispatch()
+#24 /home/w/whitecit/ecoshot.ru/public_html/wa-system/waSystem.class.php(485): waSystem->dispatchFrontend('kovrik-dlya-van...')
+#25 /home/w/whitecit/ecoshot.ru/public_html/index.php(7): waSystem->dispatch()
+#26 {main}
+
+2017-09-15 13:34:35 109.194.2.175
+Uncaught exception waDbException:
+Database error. See log for details. (1146)
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT * FROM w...')
+#1 wa-system/database/waModel.class.php(844): waModel->query('SELECT * FROM w...')
+#2 wa-system/database/waModel.class.php(810): waModel->getByField('id', '1', false)
+#3 wa-system/contact/waContact.class.php(811): waModel->getById('1')
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-15 13:34:37 109.194.2.175
+Uncaught exception waDbException:
+Database error. See log for details. (1146)
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT * FROM w...')
+#1 wa-system/database/waModel.class.php(844): waModel->query('SELECT * FROM w...')
+#2 wa-system/database/waModel.class.php(810): waModel->getByField('id', '1', false)
+#3 wa-system/contact/waContact.class.php(811): waModel->getById('1')
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-15 13:34:48 109.194.2.175
+Uncaught exception waDbException:
+Database error. See log for details. (1146)
+## wa-system/database/waModel.class.php(243)
+#0 wa-system/database/waModel.class.php(343): waModel->run('SELECT * FROM w...')
+#1 wa-system/database/waModel.class.php(844): waModel->query('SELECT * FROM w...')
+#2 wa-system/database/waModel.class.php(810): waModel->getByField('id', '1', false)
+#3 wa-system/contact/waContact.class.php(811): waModel->getById('1')
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-19 23:51:24 178.130.42.66
+Uncaught exception waDbException:
+Database error. See log for details. (2002)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-19 23:52:25 178.130.42.66
+Uncaught exception waDbException:
+Database error. See log for details. (2002)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-19 23:53:26 178.130.42.66
+Uncaught exception waDbException:
+Database error. See log for details. (2002)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-19 23:54:27 178.130.42.66
+Uncaught exception waDbException:
+Database error. See log for details. (2002)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:16:50 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:16:53 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:17:51 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:17:54 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:18:52 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:18:55 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:19:14 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/user/waAuthUser.class.php(103): waModel->__construct()
+#4 wa-system/user/waAuthUser.class.php(50): waAuthUser->updateLastTime()
+#5 wa-system/user/waAuthUser.class.php(24): waAuthUser->init()
+#6 wa-system/waSystem.class.php(238): waAuthUser->__construct(NULL, Array)
+#7 wa-system/waSystem.class.php(279): waSystem::getCommonFactory('auth_user', 'waAuthUser', Array, NULL)
+#8 wa-system/waSystem.class.php(516): waSystem->getUser()
+#9 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#10 index.php(7): waSystem->dispatch()
+#11 {main}
+
+2017-09-27 14:19:53 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:19:56 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:20:54 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:20:57 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:21:55 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:21:58 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:22:56 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:22:59 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:23:57 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:24:00 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:24:58 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}
+
+2017-09-27 14:25:01 127.0.0.1
+Uncaught exception waDbException:
+Database error. See log for details. (1045)
+## wa-system/database/waDbMysqliAdapter.class.php(33)
+#0 wa-system/database/waDbAdapter.class.php(30): waDbMysqliAdapter->connect(Array)
+#1 wa-system/database/waDbConnector.class.php(49): waDbAdapter->__construct(Array)
+#2 wa-system/database/waModel.class.php(75): waDbConnector::getConnection('default', false)
+#3 wa-system/contact/waContact.class.php(810): waModel->__construct()
+#4 wa-system/waSystem.class.php(950): waContact->getLocale()
+#5 wa-system/waSystem.class.php(1105): waSystem->getApps()
+#6 wa-system/waSystem.class.php(528): waSystem->appExists('webasyst')
+#7 wa-system/waSystem.class.php(483): waSystem->dispatchBackend('webasyst/')
+#8 index.php(7): waSystem->dispatch()
+#9 {main}

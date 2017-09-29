@@ -1,0 +1,115 @@
+			<div class="broadkast">
+				<div class="wrap container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<a href="">Главная  </a>
+							<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+							<span>{$post.title}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<div class="wrap container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+							<div class="info_new">
+								<h1 class="h1">{$post.title}</h1>
+								{$post.text}
+
+							</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+						<ul class="new_ul n_e">
+							<li>
+								<h3>Популярные новости</h3>
+								
+								
+						{$post = $wa->blog->posts(1,5)}
+                                
+                                
+                                {foreach $post as $p}
+
+	                    
+	                    	<p class="r_b_new"><a href="{$p.link}">{$p.title}</a></p>
+	                    
+	                    	
+	                    	
+						
+					
+                    {/foreach}
+								
+								
+								
+								
+								
+							
+
+							</li>
+						</ul>
+						<ul class="new_card kat_li kat">
+							<li>
+							
+							{$products_disc = $wa->shop->productSet("tovdna")}
+						
+							{foreach $products_disc as $p}
+								<p><a href="/{$p.url}/"><img src="{$wa->shop->productImgUrl($p, '200')}" alt="{$p.summary}"></p>
+								<p class="kat_name_tov"><a href="/{$p.url}/">{$p.name}</a></p>
+								<p class="text_grey_kat">SPA Care</p>
+								<p class="price">{$p.price} руб.</p>
+								<p class="action_li">Товар дня</p>
+								
+							{/foreach}	
+							</li>
+						</ul>
+						
+		
+						
+						
+						
+						
+						
+						
+					</div>
+				</div>
+			</div>
+			
+			
+<div class="karusel">
+		<div class="wrap container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+					<div class="owl-carousel">
+							{if $wa->shop}
+                                {$products = $wa->shop->productSet("skidkadna")}
+                                
+                                
+                                {foreach $products as $p}
+
+	                    <div>
+							<ul class="kat_li">
+								<li>
+									<p><a href="{$p.frontend_url}">{$wa->shop->productImgHtml($p, '200', ['itemprop' => 'image', 'alt' => $p.name, 'default' => "`$wa_theme_url`img/dummy200.png"])}</a></p>
+									<p class="kat_name_tov"><a href="{$p.frontend_url}">{$p.name}</a></p>
+									<p class="text_grey_kat">SPA Care</p>
+									<p class="price">{$p.price} руб.</p>
+									<p><button class="button">Купить в один клик</button></p>
+									<p class="podrobnee"><a href="{$p.frontend_url}">Подробнее</a></p>
+								</li>
+							</ul>
+                    	</div>
+                    {/foreach}
+                                
+                                
+                                
+                               
+                        {/if}
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>			
+			

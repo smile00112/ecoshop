@@ -1,0 +1,15 @@
+{foreach $products as $p}
+
+	<div>
+							<ul class="kat_li">
+								<li>
+									<p><a href="{$p.frontend_url}">{$wa->shop->productImgHtml($p, '200', ['itemprop' => 'image', 'alt' => $p.name, 'default' => "`$wa_theme_url`img/dummy200.png"])}</a></p>
+									<p class="kat_name_tov"><a href="{$p.frontend_url}">{$p.name}</a></p>
+									<p class="text_grey_kat">SPA Care</p>
+									<p class="price">{shop_currency_html($p.price)} руб.</p>
+									<p><button class="button">Купить в один клик</button></p>
+									<p class="podrobnee"><a href="{$p.frontend_url}">Подробнее</a></p>
+								</li>
+							</ul>
+	</div>
+{/foreach}
